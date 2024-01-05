@@ -1,0 +1,57 @@
+This is a photoapplication with these requirements: Project Summary: Assignment 3 - Photos Application
+
+As part of a comprehensive course project, I collaborated with a partner to develop a single-user photo application using Java FX and FXML. The assignment aimed at implementing a photo management system, encompassing various features and functionalities. Here's a brief overview of the project:
+
+Features Implemented:
+
+Developed a user-friendly Java FX interface for seamless interaction.
+Implemented the storage and management of photos within one or more albums.
+Incorporated the usage of FXML for designing all UI elements except standard Java FX dialogs.
+Allowed multiple stages for complex secondary windows and the ability to switch between multiple scenes within a stage.
+Key Features:
+
+Date of Photo:
+
+Used the last modification date of the photo file as a proxy for the date the photo was taken.
+Enabled the storage and manipulation of dates and times using either java.util.Calendar or java.time classes.
+Tags:
+
+Photos could be tagged with various attributes for search and grouping purposes.
+Implemented tag types with the option for users to define their own tag types.
+Location of Photos: Stock and User Photos:
+
+Managed two sets of photos - stock photos pre-loaded with the application and user photos loaded by the user.
+Created a special user, "stock," to store stock photos in an album named "stock."
+Login:
+
+Enabled user login upon application start, with an optional password feature.
+Implemented an admin subsystem with functionalities such as listing users, creating new users, and deleting existing users.
+User Subsystem:
+
+Loaded all albums and photo information for a user from a previous session.
+Implemented album management operations like creating, deleting, and renaming albums.
+Allowed users to perform actions within an open album, including adding/removing photos, captioning, tagging, and slideshow functionality.
+Search and Display:
+
+Implemented photo search based on date range and tag type-value pairs.
+Provided functionality for creating an album from search results.
+Logout and Quit Application:
+
+Enabled users to log out, saving updates made during the session.
+Implemented a safe application quit, ensuring all updates were saved.
+Error Handling:
+
+Ensured graceful handling of errors and exceptions within the GUI setup, without using the text console.
+Model:
+
+Developed a model package containing all data objects and code for storing and retrieving photos for a user.
+Utilized the java.io.Serializable interface and java.io.ObjectOutputStream/java.io.ObjectInputStream classes for data storage and retrieval.
+Implementation:
+
+Coded the application using standard Java, Java FX, and FXML, with no external vendor libraries.
+Documented each class with Javadoc tags, generating comprehensive HTML documentation pages.
+Maintained a clear project structure, separating model, view, and controller classes with appropriate package configuration.
+Submission and Code Maintenance:
+
+Created a Bitbucket repository for collaborative code management.
+Committed regularly to the repository, demonstrating incremental progress and collaboration with the partner.
